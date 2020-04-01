@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto+Slab:wght@600&display=swap');
+
+:root {
+    font-family: 'Roboto Slab', serif;
+    --main-color: black; 
+    color: var(--main-color);
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header nav .top-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+header nav .top-menu li a {
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color:  var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+
+}
+
+header nav .top-menu li a:hover{
+    border: 1px solid var(--main-color);
+}
+
+main .destinations{
+    background-image: url(../img/bus.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*
+header  img {
+    display: flex;
+    justify-content: center;
+}
+*/
